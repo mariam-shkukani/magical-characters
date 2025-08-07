@@ -4,7 +4,8 @@
 A web app that fetches and displays characters from the Harry Potter API. You can filter them by house and enjoy a magical interface.
 
 ## Live Link
-![live-link](https://github.com/mariam-shkukani/magical-characters.git)
+
+[Click here to view the live website](https://github.com/mariam-shkukani/magical-characters)
 
 ## Observations / Questions
 - I learned how to work with APIs and filters in JavaScript.
