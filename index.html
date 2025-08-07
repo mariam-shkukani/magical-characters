@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hogwarts Magical Characters</title>
+  <link rel="stylesheet" href="css/stylee.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+  <style>
+    @font-face {
+      font-family: 'HARRYP';
+      src: url('./fonts/HARRYP__.TTF') format('truetype');
+    }
+  </style>
+</head>
+<body>
+  <h1>Hogwarts Magical Characters 🧙‍♂️</h1>
+
+  <select id="house-filter">
+    <option value="All">All Houses</option>
+    <option value="Gryffindor">Gryffindor</option>
+    <option value="Slytherin">Slytherin</option>
+    <option value="Hufflepuff">Hufflepuff</option>
+    <option value="Ravenclaw">Ravenclaw</option>
+  </select>
+
+  <div id="characters-container" class="card-container"></div>
+<footer><p>mariam &copy; 2025</p></footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

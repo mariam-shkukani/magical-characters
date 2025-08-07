@@ -1,0 +1,106 @@
+body {
+  font-family: 'HAARYP', serif;
+  background-color: #f3f3f3;
+  text-align: center;
+  padding: 20px;
+}
+
+/* =====🔥🔥 THE DARK MAGIC STYLE 🔥🔥===== */
+
+/* خلفية الموقع */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+  min-height: 100vh;
+  background-image: radial-gradient(#1a1a1a 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* قائمة الفلاتر */
+#house-filter {
+  display: block;
+  margin: 2rem auto;
+  padding: 0.6rem 1.2rem;
+  font-size: 1.1rem;
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+  border: 2px solid #ff4500;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+#house-filter:hover,
+#house-filter:focus {
+  box-shadow: 0 0 10px #ff4500;
+}
+
+/* حاوية الشخصيات */
+#characters-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* كل كرت شخصية */
+#characters-container div {
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 69, 0, 0.7);
+  padding: 1.5rem;
+  max-width: 200px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 2px solid transparent;
+}
+
+#characters-container div:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ff4500;
+  border-color: #ff4500;
+}
+
+/* صورة الشخصية */
+#characters-container img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  height: 250px;
+  object-fit: cover;
+  box-shadow: 0 0 10px #000;
+}
+
+/* اسم الشخصية */
+#characters-container h3 {
+  color: #ff4500;
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+/* باقي المعلومات */
+#characters-container p {
+  color: #f5f5f5;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* رسالة "No characters" */
+#characters-container p:first-child {
+  font-size: 1.4rem;
+  color: #ff4500;
+  font-weight: bold;
+  text-shadow: 0 0 5px #ff4500;
+}
+@font-face {
+  font-family: 'HARRP';
+  src: url('./fonts/HARRYP__.TTF') format('truetype');
+}
+
+body {
+  font-family: 'HarryP', sans-serif;
+}
