@@ -1,5 +1,4 @@
-# magical-characters
-# magical-characters
+
 # Magical Characters
 
 A web app that fetches and displays characters from the Harry Potter API. You can filter them by house and enjoy a magical interface.
