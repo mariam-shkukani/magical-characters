@@ -5,7 +5,7 @@ A web app that fetches and displays characters from the Harry Potter API. You ca
 
 ## Live Link
 
-![Click here to view the live website](./"https://github.com/mariam-shkukani/magical-characters")
+![Click here to view the live website](./"https://github.com/mariam-shkukani/magical-characters.git")
 
 ## Observations / Questions
 - I learned how to work with APIs and filters in JavaScript.
